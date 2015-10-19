@@ -288,7 +288,6 @@ on boot
     # Tap to wake
     chown system radio /sys/devices/virtual/input/lge_touch/touch_gesture
     chmod 0664 /sys/devices/virtual/input/lge_touch/touch_gesture
-    write /sys/devices/virtual/input/lge_touch/touch_gesture 1
 
     # SubSystem Restart
     write /sys/bus/msm_subsys/devices/subsys0/restart_level "related"
